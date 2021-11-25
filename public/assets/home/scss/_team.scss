@@ -1,0 +1,29 @@
+  //
+// team.scss
+//
+
+
+.team-box{
+  .team-img{
+    img{
+      width: 180px;
+      border: 2px solid $light;
+      padding: 15px;
+    }
+  
+  }
+  
+
+  
+}
+
+.team-line{
+  &:before {
+    content: "";
+    border: 1px solid $light;
+    position: absolute;
+    width: 37%;
+    left: 82%;
+    top: 118px;
+}
+}

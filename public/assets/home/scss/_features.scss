@@ -1,0 +1,68 @@
+//
+// Features.scss
+//
+
+
+.uim-svg{
+  fill: $primary !important;
+  svg{
+    width: 34px;
+    height: 34px;
+    vertical-align: inherit;
+  }
+}
+
+.features-icon{
+  position: relative;
+  display: inline-block;
+  &:after{
+    content: "";
+    position: absolute;
+    left: -5px;
+    width: 45px;
+    height: 80px;
+    border-radius: 50px;
+    top: -20px;
+    text-align: center;
+    background: $light;
+    margin: 0 auto;
+    z-index: -3;
+    transform: rotate(-45deg);
+  }
+}
+
+
+.features-img{
+  img{
+    margin-top: -35% !important;
+    box-shadow: $box-shadow-lg;
+  }
+}
+
+
+// features  2
+
+.bg-features-2{
+  background: $bg-gradient;
+}
+
+.features-2-count{
+  &:after{
+   content: "";
+   position: absolute;
+   left: 3px;
+   width: 45px;
+   height: 80px;
+   border-radius: 50px;
+   top: 10px;
+   text-align: center;
+   background: rgba($white, 0.2);
+   margin: 0 auto;
+   transform: rotate(-45deg);
+  }
+}
+
+.features-2-border{
+  width: 40px;
+  border-bottom: 2px solid;
+}

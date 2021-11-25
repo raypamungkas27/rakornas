@@ -1,0 +1,70 @@
+//
+// Progress.scss
+//
+
+.nav-pills {
+  margin-bottom: 15px;
+  background: $light;
+  .nav-link {
+      color: $muted !important;
+      padding: 5px;
+      transition: all 0.5s ease;
+      &:hover {
+          background: rgba($primary, 0.06);
+      }
+      &.active {
+          background: $primary;
+          color: $white !important;
+      }
+  }
+  a {
+      .title {
+          font-size: 17px;
+          font-weight: 700;
+      }
+  }
+}
+
+.pricing-box{
+  position: relative;
+  .pricing-title{
+   font-size: 45px;
+  }
+}
+
+
+.pricing-lable {
+  position: absolute;
+  display: block;
+  top: 0;
+  right: 0px;
+}
+
+.lable-name {
+  position: relative;
+  background-color: $primary;
+  color: $white;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 90px;
+  -webkit-transform: rotate(-90deg) translateX(-27%);
+  transform: rotate(-90deg) translateX(-27%);
+  &:after{
+    content: "";
+    border-top: 20px solid $primary;
+    border-bottom: 20px solid $primary;
+    border-right: 11px solid transparent;
+    border-left: 11px solid transparent;
+    position: absolute;
+    left: -11px;
+    top: 0;
+  }
+}
+
+
+.pricing-border{
+  border: 1px solid $light;
+}

@@ -1,0 +1,36 @@
+//
+// Footer.scss
+//
+
+
+.bg-footer{
+  background: $bg-gradient;
+}
+
+.footer-social{
+  i{
+    color: rgba($white, 0.5);
+    font-size: 20px;
+    transition: all 0.5s;
+    &:hover{
+      color: $white;
+    }
+  }
+}
+
+.footer-link{
+  a {
+      color: rgba($white, 0.5);
+      line-height: 38px;
+      font-size: 15px;
+      transition: all 0.5s;
+      &:hover {
+          color: $white;
+        }
+    }
+}
+
+.footer-alt{
+  padding-top: 2.25rem;
+    border-top: 1px solid rgba(255,255,255,0.2);
+}

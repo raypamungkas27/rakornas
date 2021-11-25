@@ -1,0 +1,53 @@
+//
+// Cta.scss
+//
+
+.bg-cta{
+  background: $bg-gradient;
+  .bg-cta{  
+    .cta-img{
+     img{
+      position: relative;
+      left: 70px;
+     }
+    }
+  } 
+}
+
+
+
+// subscribe
+
+.bg-subscribe{
+  background: $bg-gradient;
+  .subscribe {
+    input {
+      padding: 14px 20px;
+      width: 100%;
+      font-size: 18px;
+      color: $dark !important;
+      border: none;
+      outline: none !important;
+      padding-right: 180px;
+      padding-left: 30px;
+      background-color: $white;
+      border-radius: 30px;
+    }
+    button {
+      position: absolute;
+      top: 5px;
+      right: 6px;
+      outline: none !important;
+      border-radius: 30px;
+      font-size: 17px;
+      padding: 9px 30px;
+    }
+    form {
+      position: relative;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+  }
+}
+
+

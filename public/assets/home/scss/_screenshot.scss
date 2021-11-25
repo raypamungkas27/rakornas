@@ -1,0 +1,30 @@
+//
+// screenshot.scss
+//
+
+.swiper-button-next {
+  background-image: none;
+}
+
+.swiper-button-prev {
+  background-image: none;
+}
+
+.swiper-button-next {
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  bottom: 0;
+  top: auto;
+  right: 45%;
+}
+
+
+.swiper-button-prev {
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  left: 45%;
+  bottom: 0;
+  top: auto;
+}

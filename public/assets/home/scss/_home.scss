@@ -1,0 +1,169 @@
+//
+// home.scss
+//
+.home-center {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+.home-desc-center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.home-2{
+  padding:200px 0px 200px 0px !important;
+}
+
+.bg-home {
+  position: relative;
+  padding:110px 0px 110px 0px;
+  background: $bg-gradient;
+  .home-title {
+      font-size: 44px;
+  }
+  .home-img {
+    img {
+        position: relative;
+        left: 120px;
+        z-index: 1;
+        top: 140px;
+    }
+  }
+}
+
+.client-images {
+  img {
+      max-height: 24px;
+      width: auto !important;
+      margin: 10px auto;
+      transition: all 0.5s;
+      &:hover {
+          opacity: 1;
+      }
+  }
+}
+
+
+
+
+// home-3
+
+.search-form {
+  input {
+      padding: 15px 20px;
+      width: 100%;
+      font-size: 17px;
+      color: $muted !important;
+      border: none;
+      outline: none !important;
+      padding-right: 160px;
+      padding-left: 30px;
+      background-color: $white;
+      border-radius: 30px;
+  }
+  button {
+      position: absolute;
+      top: 5px;
+      right: 6px;
+      outline: none !important;
+      border-radius: 30px;
+      font-size: 17px;
+      padding: 9px 30px;
+  }
+  form {
+      position: relative;
+      max-width: 600px;
+      margin: 0px auto;
+  }
+}
+
+  // home: 5
+  .slidero {
+    position: relative;
+    z-index: 1;
+}
+
+// .bg-home-6
+.home-shape {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+  left: 0;
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+// home-6
+
+.bg-home-6{
+  background-image: url(../images/bg-1.jpg);
+  background-size: cover;
+  background-position: top;
+  padding: 220px 0px 220px;
+  position: relative;
+}
+
+// home-7
+
+.home-img-7 {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+}
+
+// home-8
+
+.flex-control-paging li a {
+  border-radius: 20px;
+  -webkit-box-shadow: 0 0 0 0 $white;
+          box-shadow: 0 0 0 0 $white;
+  height: 12px;
+  width: 12px;
+  opacity: 1;
+  border: 2px solid $white !important;
+  background: $white;
+}
+
+.flex-control-paging li a:hover {
+  background: $white;
+}
+
+.main-slider .flex-control-paging li a.flex-active {
+  background-color: transparent;
+}
+
+.flex-control-nav {
+  bottom: -40px;
+}
+
+// home-9
+
+.home-registration-form {
+  border-radius: 3px;
+  box-shadow: $box-shadow;
+  .registration-form {
+    label {
+      font-size: 13px;
+    }
+  }
+}
+
+.registration-input-box {
+  border: none;
+  border-radius: 0px;
+  color: $muted;
+  border-bottom: 1px solid #c5c5c5;
+  box-shadow: none !important;
+  padding-left: 0;
+  padding-right: 0;
+  &:focus{
+    border-color: $primary;
+  }
+}

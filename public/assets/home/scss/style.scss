@@ -1,0 +1,47 @@
+/* Template Name: Delvy
+   Author: Themesdesign
+   Version: 1.0.0
+   File Description: Main Css file of the template
+*/
+
+/****************************************\
+
+01.general
+02.helper
+03.components
+04.menu
+05.home
+06.features
+07.counter
+08.screenshort
+09.cta
+10.pricing
+11.testimonial
+12.team
+13.faq
+14.contact
+15.footer
+16.responsive
+
+*****************************************/
+
+@import "variables";
+@import "general";
+@import "helper";
+@import "components";
+@import "menu";
+@import "home";
+@import "features";
+@import "counter";
+@import "screenshot";
+@import "cta";
+@import "pricing";
+@import "testimonial";
+@import "team";
+@import "faq";
+@import "contact";
+@import "footer";
+@import "responsive";
+
+
+

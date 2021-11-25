@@ -1,0 +1,57 @@
+//
+// testimonail.scss
+//
+
+
+.testi-box{
+  border: 1px solid rgba($dark, 0.04);
+  box-shadow: 0 15px 10px -10px rgba(31, 31, 31, 0.1);
+  .testi-img{
+      img{
+          width: 90px;
+          height: 90px;
+      } 
+     
+   }
+   i{
+      width: 37px;
+      height: 37px;
+      line-height: 37px;
+      background-color: $primary;
+      display: inline-block;
+      font-size: 28px;
+      border-radius: 50%;
+      text-align: center;
+      color: $white;
+      position: relative;
+    }
+  .testi-border{
+      width: 60px;
+      height: 2px;
+      background-color: $primary;
+      margin: 0 auto;
+  }
+}
+
+.owl-theme{
+  .owl-controls{
+             margin-top: 50px;
+      .owl-page {
+          span{
+              background-color: $primary;
+          }
+      }
+  }
+}
+
+// CLIENT-LOGO
+.bg-client {
+  padding: 30px 0px 30px 0px;
+}
+
+.client-logo {
+  img {
+      width: 120px;
+      opacity: 0.5;
+  }
+}

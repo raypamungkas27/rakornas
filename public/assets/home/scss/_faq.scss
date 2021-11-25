@@ -1,0 +1,65 @@
+//
+// faq.scss
+//
+
+
+.faq {
+    position: relative;
+}
+
+.card{
+    border: 1px solid $light;
+    box-shadow: $box-shadow;
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+
+}
+
+a.faq[data-toggle=collapse].collapsed:before {
+    content: '\F415';
+}
+
+a.faq[data-toggle=collapse]:before {
+    content: '\F374';
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    text-align: center;
+    background: $primary;
+    line-height: 22px;
+    display: block;
+    float: right;
+    font-family: 'Material Design Icons';
+    font-size: 16px;
+    color: $white;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-form-faq{
+    position: relative;
+    .form-control {
+        height: 44px;
+        font-size: 14px;
+        padding-left: 25px;
+        border-color: #e2e4e8;
+        color: $muted;
+    }
+    .form-control:focus {
+      border-color: #e2e4e8;
+        outline: 0;
+        box-shadow: none;
+    }
+    .faq-icon{
+        position: absolute;
+    font-size: 18px;
+    right: 10px;
+    color: $muted;
+    margin-top: 40px;
+    }
+}
